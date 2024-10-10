@@ -2,7 +2,8 @@ import axios from "axios"
 
 class Api{
     constructor(){
-        this.baseUrl = "http://localhost:5454"
+        // this.baseUrl = "http://localhost:5454"
+        this.baseUrl = "https://quiz-app-1123.onrender.com"
     }
 
     listAllQuiz(){
